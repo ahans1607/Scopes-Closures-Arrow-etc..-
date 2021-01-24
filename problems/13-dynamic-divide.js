@@ -19,6 +19,11 @@ divideByFive(50); // returns 10
 ***********************************************************************/
 
 // your code here
+function dynamicDivide(divisor) {
+  return function(arg) {
+    return arg / divisor;
+  }
+};
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
